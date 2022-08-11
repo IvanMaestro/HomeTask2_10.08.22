@@ -14,7 +14,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 int result = 0;
 
 if (number < 100) Console.Write("Нет третьего числа");
-if (number > 100)
+if (number > 99)
 {
     for (int i = number; i > 0; i = i / 10)
     {
