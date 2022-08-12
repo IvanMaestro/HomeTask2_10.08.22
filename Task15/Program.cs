@@ -28,12 +28,9 @@ switch (number)
     case 5:
         day = "Не выходной";
         break;
-    case 6:
+    case 6: case 7:
         day = "Выходной";
-        break;
-    case 7:
-        day = "Выходной";
-        break;
+        break;    
     default:
         day = $"Нет дня недели с номером {number}";
         break;
